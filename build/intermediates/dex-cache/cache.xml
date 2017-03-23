@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/atlas_huang/Documents/Github/PatternLock/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/atlas_huang/Documents/Github/PatternLock/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d2b28626b16a9d6f674e8f7d74495fc9b3300b1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/atlas_huang/Documents/Github/PatternLock/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="54f9b336de9f2e7b64c4b38cf66a3713a76101a3">
+        <dex dex="/Users/atlas_huang/Documents/Github/PatternLock/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a56f8e4d071bf5af5add858085fd948b90253a0d/classes.dex" />
+    </item>
+
+</items>
