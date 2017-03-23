@@ -22,8 +22,8 @@
         android:layout_height="wrap_content"
         android:text="Set Pattern"
         app:layout_constraintBottom_toBottomOf="@+id/constraintLayoutMainActivity"
-        app:layout_constraintStart_toStartOf="@id/constraintLayoutMainActivity"
-        />
+        app:layout_constraintLeft_toLeftOf="@id/constraintLayoutMainActivity"
+        app:layout_constraintRight_toLeftOf="@+id/buttonSetPin" />
 
     <Button
         android:id="@+id/buttonSetPin"
@@ -31,8 +31,16 @@
         android:layout_height="wrap_content"
         android:text="Set Pin"
         app:layout_constraintBottom_toBottomOf="@id/constraintLayoutMainActivity"
-        app:layout_constraintStart_toEndOf="@id/buttonSetPattern"
+        app:layout_constraintLeft_toRightOf="@id/buttonSetPattern"
+        app:layout_constraintRight_toLeftOf="@+id/buttonSetFingerPrint" />
+
+    <Button
+        android:id="@+id/buttonSetFingerPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set FingerPrint"
+        app:layout_constraintBottom_toBottomOf="@id/constraintLayoutMainActivity"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayoutMainActivity"
+        app:layout_constraintLeft_toRightOf="@id/buttonSetPin"
         />
-
-
 </android.support.constraint.ConstraintLayout>

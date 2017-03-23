@@ -29,6 +29,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button mBtnSetFingerPrint = (Button) findViewById(R.id.buttonSetFingerPrint);
+        mBtnSetFingerPrint.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showActivity(SampleSetFingerPrintActivity.class);
+            }
+        });
+
     }
 
     private void showActivity(Class<?> cls) {

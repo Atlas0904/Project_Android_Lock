@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SampleSetPatternActivity" />
-        <activity android:name=".SampleSetPinActivity"></activity>
-
+        <activity android:name=".SampleSetPinActivity" />
+        <activity android:name=".SampleSetFingerPrintActivity"></activity>
     </application>
 
 </manifest>

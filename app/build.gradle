@@ -27,6 +27,7 @@ dependencies {
 
     compile 'com.andrognito.pinlockview:pinlockview:2.0.1'
     compile 'me.zhanghai.android.patternlock:library:2.0.4'
+    compile 'com.multidots:fingerprint-auth:1.0.1'
     compile 'com.android.support:appcompat-v7:25.3.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
