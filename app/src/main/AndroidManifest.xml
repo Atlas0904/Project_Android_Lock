@@ -16,9 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SampleSetPatternActivity" />
+
+        <activity android:name=".patternlock.PatternConfrimActivity"/>
+        <activity android:name=".patternlock.PatternSetActivity" />
         <activity android:name=".SampleSetPinActivity" />
-        <activity android:name=".SampleSetFingerPrintActivity"></activity>
+        <activity android:name=".patternlock.PatternResetPwdActivity"/>
+        <activity android:name=".SampleSetFingerPrintActivity">
+        </activity>
+
     </application>
 
 </manifest>

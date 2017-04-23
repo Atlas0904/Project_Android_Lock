@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.atlas_huang.patternlock.patternlock.PatternConfrimActivity;
+import com.example.atlas_huang.patternlock.patternlock.PatternSetActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,11 +16,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        Button mBtnSetCkcButton = (Button) findViewById(R.id.buttonCkcPattern);
+        mBtnSetCkcButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showActivity(PatternConfrimActivity.class);
+            }
+        });
+
+
         Button mBtnSetPattern = (Button) findViewById(R.id.buttonSetPattern);
         mBtnSetPattern.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showActivity(SampleSetPatternActivity.class);
+                showActivity(PatternSetActivity.class);
             }
         });
 

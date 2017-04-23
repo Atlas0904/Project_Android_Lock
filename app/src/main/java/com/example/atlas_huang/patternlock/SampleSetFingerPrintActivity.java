@@ -20,7 +20,8 @@ public class SampleSetFingerPrintActivity extends AppCompatActivity implements F
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sample_set_finger_print);
 
-        FingerPrintHelper.checkAuth(this);
+        Log.d(TAG, "CheckAuth ret=" + FingerPrintHelper.checkAuth(this));
+
         
         mFingerPrintAuthHelper = FingerPrintAuthHelper.getHelper(this, this);
         mFingerPrintAuthHelper.startAuth();
